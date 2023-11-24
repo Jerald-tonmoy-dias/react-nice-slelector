@@ -1,10 +1,10 @@
-﻿NiceSelect Component Documentation
+﻿# NiceSelect Component Documentation
 
-Overview
+## Overview
 
 The NiceSelect component is a customizable dropdown component for React, designed to enhance the user experience when selecting options. It provides a clean and stylish interface with options that can be easily navigated using the keyboard or mouse. This documentation will guide you through using the NiceSelect component in your React application.
 
-Installation
+## Installation
 
 Before using the NiceSelect component, make sure you have the necessary dependencies installed.
 
@@ -14,15 +14,15 @@ bash
 
 Copy code
 
-npm install react
+```npm install react```
 
-Import the NiceSelect component:
+# Import the NiceSelect component:
 
 javascript
 
 Copy code
 
-import NiceSelect from './NiceSelect';
+```import NiceSelect from './NiceSelect';```
 
 Ensure that the required styles are imported in your project. You can use the provided nice-select.css file for the default styling.
 
@@ -30,9 +30,9 @@ javascript
 
 Copy code
 
-import './nice-select.css';
+```import './nice-select.css';```
 
-Usage
+## Usage
 
 Props
 
@@ -46,13 +46,9 @@ onChange (Function): A callback function triggered when an option is selected.
 
 wrapperClass (String): Additional CSS classes for the select wrapper.
 
-Example
+## Example
 
-javascript
-
-Copy code
-
-import React from 'react';
+``` import React from 'react';
 
 import NiceSelect from './NiceSelect';
 
@@ -86,9 +82,9 @@ wrapperClass="custom-wrapper-class"
 
 };
 
-export default MyComponent;
+export default MyComponent; ```
 
-Explanation
+## Explanation
 
 options: An array of strings representing the options in the dropdown.
 
@@ -98,7 +94,7 @@ onChange: A callback function that will be called when an option is selected. It
 
 wrapperClass: Additional CSS classes for styling the select wrapper.
 
-Features
+## Features
 
 Dropdown Visibility: The dropdown can be toggled open or closed by clicking on the select box.
 
@@ -108,7 +104,7 @@ Keyboard Navigation: Users can navigate through options using the keyboard arrow
 
 Styling: The component provides basic styling, and additional styling can be applied using the wrapperClass prop.
 
-Notes
+## Notes
 
 Make sure to handle the onChange callback function to capture the selected option and perform any necessary actions in your application.
 
